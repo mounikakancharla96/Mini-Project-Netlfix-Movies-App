@@ -1,0 +1,115 @@
+.login-container {
+  position: absolute;
+  height: 640px;
+  width: 360px;
+  margin-left: 0px;
+  margin-top: 0px;
+  border-radius: 0px;
+  background-color: #131313;
+}
+.movies-image {
+  height: 27px;
+  width: 100px;
+  margin-left: 32px;
+  margin-top: 32px;
+  border-radius: 0px;
+  position: absolute;
+}
+.login {
+    margin-left: 32px;
+    margin-top: 164px;
+    margin-bottom: 32px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: left;
+}
+.input-label {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.label {
+    color: #FFFFFF;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 12px;
+}
+.input {
+   height: 40px;
+   width: 100%;
+   margin-top: 6px;
+   margin-bottom: 18px;
+   background: #333333;
+   border-radius: 2px;
+   border-width: 0px;
+   padding-left: 12px;
+   font-family: 'HK Grotesk';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;
+   color: #E2E8F0;
+}
+.login-button {
+  background-color: #E50914;
+  color: #ffffff;
+  border-radius: 3px;
+  border-width: 0px;
+  height: 30px;
+  margin-left: 32px;
+  width: 83%;
+}
+.error-msg {
+    color: #DC2626;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-left: 32px;
+    margin-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+  .login-container {
+     min-height: 100vh;
+     background-image: url("https://res.cloudinary.com/ddq78brtl/image/upload/v1671012204/netfilx_1_x70jvu.png");
+     background-size: cover;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+  }
+  .form {
+     align-self: center;
+     margin-top: 200px;
+  }
+  .login-card {
+     background-color: #0C0B10;
+     border-radius: 3px;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: center;
+     padding: 20px;
+  }
+  .login {
+      margin-top: 10px;
+  }
+  .input-label {
+    width: 100%;
+  }
+  .login-button {
+      width: 100%;
+      margin-left: 0px;
+  }
+  .error-msg {
+      margin-left: 0px;
+      align-self: flex-start;
+  }
+}
